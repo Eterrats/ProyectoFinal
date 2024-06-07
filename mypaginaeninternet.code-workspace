@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../mypaginaeninternet"
+		},
+		{
+			"path": "../../../Downloads/Pagina-Web-Brayan/actividades/css"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Pagina-Sintesis"
+	}
+}
