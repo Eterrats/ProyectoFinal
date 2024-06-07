@@ -1,0 +1,119 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+.contenedor-principal {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+header, footer {
+  flex-shrink: 0;
+  background-color: #00ADEF;
+  color: #ffffff;
+  padding: 5px 0; /* Reducir el padding del encabezado y pie de página */
+  text-align: center;
+}
+.logo {
+  max-height: 70px; /* Aumentar el tamaño del logo */
+  display: block;
+  margin: 10px auto 0; /* Alinear el logo en el centro */
+}
+.titulo nav ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  margin-top: 10px; /* Ajustar el margen superior de las categorías */
+}
+.titulo nav ul li {
+  display: inline;
+  margin: 0 20px;
+}
+.titulo nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+}
+.titulo nav ul li a:hover {
+  color: #ffcc00;
+}
+
+.informacion-empresa {
+  text-align: center;
+  padding: 20px;
+  flex-grow: 1;
+}
+
+.informacion-empresa h1 {
+  font-size: 28px;
+  color: #00ADEF;
+  margin-bottom: 10px;
+}
+
+.informacion-empresa p {
+  font-size: 16px;
+  color: #666;
+}
+
+.slogan {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.slogan h2 {
+  font-size: 20px;
+  color: #00ADEF;
+  margin-bottom: 10px;
+}
+
+.slogan p {
+  font-size: 14px;
+  color: #666;
+}
+
+.imagenes-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.imagen {
+  margin: 0 10px;
+  width: 200px;
+}
+
+.imagen img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.imagen p {
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+  margin-top: 5px;
+}
+
+.informacion-contacto, .mapa {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.informacion-contacto p, .mapa a {
+  color: #ffffff;
+}
+
+.mapa a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.mapa a:hover {
+  color: #ffcc00;
+}
